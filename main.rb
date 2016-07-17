@@ -33,9 +33,9 @@ end
 
 def play
 
-  dick = false
+  task = false
 
-  while dick == false
+  while task == false
     puts "select rod to TAKE from: "
     from = gets.chomp
     move_from(from)
