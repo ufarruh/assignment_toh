@@ -11,7 +11,7 @@ def move_from(from)
   elsif from == "3"
     $origin = $rod3.pop
   else
-    puts "That's fucker up"
+    puts "Invalid Entry"
   end
 end
 
